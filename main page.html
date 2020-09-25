@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i');
+body{
+	margin:0;
+	background-repeat: no-repeat fixed ; background-size:100% 100% ; background-attachment:fixed; 
+	}
+	
+.above{
+  background:white;
+  colour:black;
+  display:inline-block;
+  paddings:15px 0px 6px 40px;
+  height:80px;
+  opacity:0.5;
+}	
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  font-size: 10px;
+}
+.item2 {
+  grid-column: 2 / 12;
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-left:30px;
+  width:1500px;
+  
+}
+.item1{
+  width:150px;
+}
+
+#quote{
+  size:30;
+  color:black;
+
+}
+
+header{
+	background:black;
+	color:white;
+	paddings:15px 0px 6px 40px;
+	height:80px;
+	opacity:0.7;
+	}
+	
+	p{
+		color: white;
+	}
+header h1,h3{
+	display:inline;
+	color:white;
+	font-weight:400;
+	font-size:40px;
+	float:left;
+	margin-top:15px;
+	margin-right:15px;
+	margin-left: 15px;
+}
+h2{
+	color: white;
+}
+nav ul{
+	display:inline;
+	padding:0px;
+	float:left;
+	margin-left: 40px;
+	margin-top: 20px;
+	
+}
+nav ul li{
+	display:inline-block;
+	list-style-type:none;
+	color:white;
+	float:left;
+	margin-right:40px;
+	margin-top: 10px;
+
+}
+nav ul li a{
+	color:white;
+	font-size: 20;
+	text-decoration:none;
+}
+.homeblack:hover{
+	background-color:green;
+	padding:20px 20px 22px 20px;
+}
+
+
+
+</style>
+</head>
+<body background="image1.jpg" background-repeat: no-repeat; background-size:100%; >
+
+<header class="above">
+<nav>
+<div class="grid-container">
+  <div class="item1"><img src="14.jpg" height=80px width=150px /></div>
+  <div class="item2"><h2 id="quote"><i>"There is no sincere love than the love for food."</i></h2></div> 
+</div>
+</nav>
+</header>
+
+<header>
+<nav>
+   <a href="main page.html"><h1>HOME</h1></a>
+   <ul  STYLE=" TOP:0px; right:200px;" >
+     <li><a class="homeblack" href="about.html">About</a></li>
+     <li><a class="homeblack" href="jj.html">Images</a></li>
+     <li><a class="homeblack" href="tips.html">Navigation</a></li>
+     <li><a class="homeblack" href="influencers.html">Remarks</a></li>
+     <li><a class="homeblack" href="contact.html">Contact</a></li>
+     <li><a class="homeblack" href="sign up1.html">sign up</a></li>
+</ul>
+</nav>
+</header>
+</body>
+</html>
